@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Sudoku</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="sudoku.png">
+</head>
+<body>
+  <table class="sudoku-table">
+    <tr>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+    </tr>
+    <tr>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+    </tr>
+    <tr>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+    </tr>
+    <tr>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+    </tr>
+    <tr>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+    </tr>
+    <tr>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+    </tr>
+    <tr>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+    </tr>
+    <tr>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+    </tr>
+    <tr>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+      <td><input type="text" maxlength="1"></td>
+    </tr>
+  </table>
+
+  <!-- controls -->
+  <div class="controls">
+    <button id="generateSudokuBtn">New Sudoku!</button>
+    <button id="answerBtn">Show Answer</button>
+    <div class="diffSliderCont">
+      <br> <input id="diffSlider" type="range" value="50" min="0" max="75"> <br>
+      Difficulty level
+    </div>
+  </div>
+
+  <!-- load scr -->
+  <script src="sudoku.js"></script>
+</body>
+</html>
